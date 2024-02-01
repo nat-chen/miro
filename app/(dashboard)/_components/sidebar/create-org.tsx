@@ -12,7 +12,7 @@ import { Upload } from "lucide-react";
 
 export const CreateOrganization = () => {
   return (
-    <Card className="w-[350px]">
+    <Card>
       <CardHeader>
         <CardTitle>Create Organization</CardTitle>
       </CardHeader>
@@ -45,8 +45,7 @@ export const CreateOrganization = () => {
           </div>
         </form>
       </CardContent>
-      <CardFooter className="flex justify-between">
-        <Button variant="outline">Cancel</Button>
+      <CardFooter className="flex-row-reverse">
         <Button>Save</Button>
       </CardFooter>
     </Card>
